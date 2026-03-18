@@ -26,4 +26,4 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Run app
-        run: dotnet run --project HelloDevOps/HelloDevOps.csproj
+        run: dotnet run --project HelloDevOps/Program.cs
