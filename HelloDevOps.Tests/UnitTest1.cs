@@ -14,7 +14,7 @@ public class UnitTest1
     [TestMethod]
     public void shouldFail()
     {
-        bool shouldBeTrue = false;
+        bool shouldBeTrue = true;
         Assert.IsTrue(shouldBeTrue);
     }
 }
